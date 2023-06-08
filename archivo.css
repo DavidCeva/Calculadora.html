@@ -1,0 +1,30 @@
+.calculator {
+    width: 200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #a3d41a;
+    border-radius: 5px;
+    background-color: #a3d41a;
+  }
+  
+  #display {
+    width: 93%;
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: beige;
+  }
+  
+  .buttons {
+    display: grid;  
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    border-bottom: black;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 16px;
+    font-family:'Times New Roman';
+    background-color: beige;
+  }
